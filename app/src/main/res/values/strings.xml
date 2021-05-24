@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Practical2</string>
+    <string name="tvGreySeal">Grey Seal</string>
+    <string name="tvTest">TextView</string>
+    <string name="btnTest">button</string>
 </resources>
