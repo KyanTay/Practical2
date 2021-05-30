@@ -7,7 +7,13 @@
 
     <TextView
         android:id="@+id/tvGreySeal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/tvGreySeal" />
+
+    <TextView
+        android:id="@+id/tvGiantPanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvGiantPanda" />
 </LinearLayout>

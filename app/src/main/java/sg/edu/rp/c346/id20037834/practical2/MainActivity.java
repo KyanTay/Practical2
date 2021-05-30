@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     TextView greySealText;
+    TextView giantPandaBearText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         greySealText = findViewById(R.id.tvGreySeal);
+        giantPandaBearText = findViewById(R.id.tvGiantPanda);
 
         greySealText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent greySealDetails = new Intent(MainActivity.this, showAnimalDetails.class);
                 greySealDetails.putExtra("greySeal", "1");
                 startActivity(greySealDetails);
+            }
+        });
+
+        giantPandaBearText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent giantPandaBearDetails = new Intent(MainActivity.this, showAnimalDetails.class);
+                giantPandaBearDetails.putExtra("pandaBear", "2");
+                startActivity(giantPandaBearDetails);
             }
         });
     }
