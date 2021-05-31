@@ -6,14 +6,33 @@
 
 
     <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:text="@string/tvAnimalSafari" />
+
+    <TextView
         android:id="@+id/tvGreySeal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvGreySeal" />
+        android:layout_gravity="center"
+        android:background="@drawable/tv_border"
+        android:padding="5dp"
+        android:text="@string/tvGreySeal"
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/tvGiantPanda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tvGiantPanda" />
+        android:background="@drawable/tv_border"
+        android:padding="5dp"
+        android:text="@string/tvGiantPanda"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30dp" />
+
 </LinearLayout>
