@@ -17,13 +17,13 @@ import android.widget.Toast;
 
 public class GiantClamDetails extends AppCompatActivity {
 
-    ImageView greySealImage;
-    TextView greySealDetails;
-    TextView greySealFact1;
-    TextView greySealFact2;
-    TextView greySealFact3;
-    TextView greySealFact4;
-    Button toGreySealWebsite;
+    ImageView giantClamImage;
+    TextView giantClamDetails;
+    TextView giantClamFact1;
+    TextView giantClamFact2;
+    TextView giantClamFact3;
+    TextView giantClamFact4;
+    Button toGiantClamWebsite;
 
     int currentTextSize = 25;
 
@@ -33,36 +33,36 @@ public class GiantClamDetails extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_giant_clam_details);
 
-        greySealDetails = findViewById(R.id.tvGreySealDetails);
-        greySealFact1 = findViewById(R.id.tvGreySealFact1);
-        greySealFact2 = findViewById(R.id.tvGreySealFact2);
-        greySealFact3 = findViewById(R.id.tvGreySealFact3);
-        greySealFact4 = findViewById(R.id.tvGreySealFact4);
-        toGreySealWebsite = findViewById(R.id.btnToPage);
+        giantClamDetails = findViewById(R.id.tvGiantClamDetails);
+        giantClamFact1 = findViewById(R.id.tvGiantClamFact1);
+        giantClamFact2 = findViewById(R.id.tvGiantClamFact2);
+        giantClamFact3 = findViewById(R.id.tvGiantClamFact3);
+        giantClamFact4 = findViewById(R.id.tvGiantClamFact4);
+        toGiantClamWebsite = findViewById(R.id.btnToPage);
 
-        registerForContextMenu(greySealDetails);
-        registerForContextMenu(greySealFact1);
-        registerForContextMenu(greySealFact2);
-        registerForContextMenu(greySealFact3);
-        registerForContextMenu(greySealFact4);
+        registerForContextMenu(giantClamDetails);
+        registerForContextMenu(giantClamFact1);
+        registerForContextMenu(giantClamFact2);
+        registerForContextMenu(giantClamFact3);
+        registerForContextMenu(giantClamFact4);
 
         //calling for grey seal intent
-        Intent getSealIntent = getIntent();
+        Intent getGiantClamIntent = getIntent();
         //to find the intetn string
-        String firstImageGreySeal = getSealIntent.getStringExtra("greySeal");
+        String imageGiantClam = getGiantClamIntent.getStringExtra("giantClam");
 
         //set image
-        if (!firstImageGreySeal.isEmpty()) {
-            greySealImage = findViewById(R.id.ivGreySeal);
-            greySealImage.setImageResource(R.drawable.grey_seal);
+        if (!imageGiantClam.isEmpty()) {
+            giantClamImage = findViewById(R.id.ivGiantClam);
+            giantClamImage.setImageResource(R.drawable.giant_clam);
         }
 
 
         //Allow user to click on the the text to enter the web page
-        toGreySealWebsite.setOnClickListener(new View.OnClickListener() {
+        toGiantClamWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goWebPageGreySeal = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/grey-seal/"));
+                Intent goWebPageGreySeal = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/giant-clam/"));
                 startActivity(goWebPageGreySeal);
             }
         });
@@ -83,19 +83,19 @@ public class GiantClamDetails extends AppCompatActivity {
                 //Able to increase till a certain amount before going back to default
                 if (currentTextSize < 40) {
                     currentTextSize += 2;
-                    greySealDetails.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact1.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact2.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact3.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact4.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamDetails.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact1.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact2.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact3.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact4.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
                     Toast.makeText(this, "Text size increased", Toast.LENGTH_SHORT).show();
                     return true;
                 } else if (currentTextSize > 40) {
-                    greySealDetails.setTextSize(25);
-                    greySealFact1.setTextSize(25);
-                    greySealFact2.setTextSize(25);
-                    greySealFact3.setTextSize(25);
-                    greySealFact4.setTextSize(25);
+                    giantClamDetails.setTextSize(25);
+                    giantClamFact1.setTextSize(25);
+                    giantClamFact2.setTextSize(25);
+                    giantClamFact3.setTextSize(25);
+                    giantClamFact4.setTextSize(25);
                     Toast.makeText(this, "Text too big reverting back to normal", Toast.LENGTH_SHORT).show();
                     return true;
                 }
@@ -104,21 +104,21 @@ public class GiantClamDetails extends AppCompatActivity {
                 //Able to decrease till a certain amount before going back to default
                 if (currentTextSize > 14) {
                     currentTextSize -= 2;
-                    greySealDetails.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact1.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact2.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact3.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
-                    greySealFact4.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamDetails.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact1.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact2.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact3.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
+                    giantClamFact4.setTextSize(TypedValue.COMPLEX_UNIT_SP, currentTextSize);
                     Toast.makeText(this, "Text size decreased", Toast.LENGTH_SHORT).show();
                     return true;
                 }
                 //Set back to default when lower than a certain amount
                 else if (currentTextSize < 14) {
-                    greySealDetails.setTextSize(25);
-                    greySealFact1.setTextSize(25);
-                    greySealFact2.setTextSize(25);
-                    greySealFact3.setTextSize(25);
-                    greySealFact4.setTextSize(25);
+                    giantClamDetails.setTextSize(25);
+                    giantClamFact1.setTextSize(25);
+                    giantClamFact2.setTextSize(25);
+                    giantClamFact3.setTextSize(25);
+                    giantClamFact4.setTextSize(25);
                     Toast.makeText(this, "Text too small reverting back to normal", Toast.LENGTH_SHORT).show();
                     return true;
                 }
