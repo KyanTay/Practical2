@@ -62,8 +62,8 @@ public class GiantClamDetails extends AppCompatActivity {
         toGiantClamWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goWebPageGreySeal = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/giant-clam/"));
-                startActivity(goWebPageGreySeal);
+                Intent goWebPageGiantClam = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/giant-clam/"));
+                startActivity(goWebPageGiantClam);
             }
         });
     }

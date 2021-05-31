@@ -62,8 +62,8 @@ public class GreenBeeEater extends AppCompatActivity {
         toGreenBeeEaterWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goWebPageGreySeal = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/green-bee-eater/"));
-                startActivity(goWebPageGreySeal);
+                Intent goWebPageGreenBeeEater = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/green-bee-eater/"));
+                startActivity(goWebPageGreenBeeEater);
             }
         });
     }

@@ -68,8 +68,8 @@ public class GriffonshireDetails extends AppCompatActivity {
         toGriffonshireWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent toGiantPandaBear = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/griffonshire/"));
-                startActivity(toGiantPandaBear);
+                Intent toGriffonshirePage = new Intent(Intent.ACTION_VIEW, Uri.parse("https://a-z-animals.com/animals/griffonshire/"));
+                startActivity(toGriffonshirePage);
             }
         });
     }

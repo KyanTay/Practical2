@@ -20,6 +20,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginVertical="40dp"
+                android:padding="30dp"
                 android:textSize="30sp"
                 android:textColor="@color/white"
                 android:text="@string/tvGiantClamTitle" />
@@ -40,6 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textSize="30sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamAbout" />
 
@@ -48,6 +51,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamDetails" />
 
@@ -77,6 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:textSize="25sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamFact1" />
 
@@ -86,6 +91,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:textSize="25sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamFact2" />
 
@@ -95,6 +101,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:textSize="25sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamFact3" />
 
@@ -104,6 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
                     android:textSize="25sp"
+                    android:padding="10dp"
                     android:textColor="@color/white"
                     android:text="@string/tvGiantClamFact4" />
             </LinearLayout>
