@@ -1,9 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Gila_Monster_Details">
+    android:layout_height="wrap_content"
+    android:background="#474545"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGilaMonsterTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:text="@string/tvGilaMonsterTitle" />
+
+            <ImageView
+                android:id="@+id/ivGilaMonster"
+                android:layout_width="match_parent"
+                android:layout_height="230dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterAbout" />
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterDetails" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterFacts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvFacts" />
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterFact1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterFact1" />
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterFact2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterFact2" />
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterFact3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterFact3" />
+
+                <TextView
+                    android:id="@+id/tvGilaMonsterFact4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:text="@string/tvGilaMonsterFact4" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btnToPage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/btnClickToLearnMore" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

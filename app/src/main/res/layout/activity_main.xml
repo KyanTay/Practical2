@@ -5,71 +5,134 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:padding="20dp"
-        android:textSize="30dp"
-        android:text="@string/tvAnimalSafari" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/tvGreySeal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@drawable/tv_border"
-        android:padding="5dp"
-        android:text="@string/tvGreySeal"
-        android:textSize="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/tvAnimalSafari"
+                android:textSize="30dp" />
 
-    <TextView
-        android:id="@+id/tvGiantPanda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/tv_border"
-        android:padding="5dp"
-        android:text="@string/tvGiantPanda"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="30dp" />
+            <TextView
+                android:id="@+id/tvGekco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGecko"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGreySeal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGreySeal"
+                android:textSize="30dp" />
 
 
-    <TextView
-        android:id="@+id/tvGlassLizard"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="30dp"
-        android:background="@drawable/tv_border"
-        android:padding="5dp"
-        android:text="@string/tvGlassLizard"
-        />
 
-    <TextView
-        android:id="@+id/tvGiantClam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="30dp"
-        android:background="@drawable/tv_border"
-        android:padding="5dp"
-        android:text="@string/tvGiantClam"
-        />
-    <TextView
-        android:id="@+id/tvGreenBeeEater"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="30dp"
-        android:background="@drawable/tv_border"
-        android:padding="5dp"
-        android:text="@string/tvGiantClam"
-        />
+            <TextView
+                android:id="@+id/tvGlassFrog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGlassFrog"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:id="@+id/tvGiantClam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGiantClam"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGriffonshire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGriffonshire"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGlassLizard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGlassLizard"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGilaMonster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:text="@string/tvGilaMonster"
+                android:background="@drawable/tv_border"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGreenBeeEater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGreenBeeEater"
+                android:textSize="30dp" />
+            <TextView
+                android:id="@+id/tvGiantPanda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGiantPanda"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvGiantAfricanLandSnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/tv_border"
+                android:padding="20dp"
+                android:text="@string/tvGiantAfricanLandSnail"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </ScrollView>
 
 
 </LinearLayout>

@@ -69,7 +69,7 @@
                     android:layout_gravity="center"
                     android:textSize="30sp"
                     android:textColor="@color/white"
-                    android:text="@string/tvGreySealFacts" />
+                    android:text="@string/tvFacts" />
 
                 <TextView
                     android:id="@+id/tvGreySealFact1"

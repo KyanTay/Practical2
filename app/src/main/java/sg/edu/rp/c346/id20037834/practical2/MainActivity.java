@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     TextView greySealText;
     TextView giantPandaBearText;
     TextView glassLizardText;
+    TextView gilaMonsterText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         greySealText = findViewById(R.id.tvGreySeal);
         giantPandaBearText = findViewById(R.id.tvGiantPanda);
         glassLizardText = findViewById(R.id.tvGlassLizard);
+        gilaMonsterText = findViewById(R.id.tvGilaMonster);
 
         greySealText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,6 +51,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent glassLizardIntent = new Intent(MainActivity.this, glass_lizard_details.class);
                 glassLizardIntent.putExtra("glassLizard", "3");
                 startActivity(glassLizardIntent);
+            }
+        });
+
+        gilaMonsterText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gilaMonsterDetails = new Intent(MainActivity.this, Gila_Monster_Details.class);
+                gilaMonsterDetails.putExtra("gilaMonster", "4");
+                startActivity(gilaMonsterDetails);
             }
         });
     }
