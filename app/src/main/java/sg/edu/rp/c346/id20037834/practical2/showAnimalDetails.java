@@ -38,7 +38,7 @@ public class showAnimalDetails extends AppCompatActivity {
         greySealFact2 = findViewById(R.id.tvGreySealFact2);
         greySealFact3 = findViewById(R.id.tvGreySealFact3);
         greySealFact4 = findViewById(R.id.tvGreySealFact4);
-        toGreySealWebsite = findViewById(R.id.btnToSealWebPage);
+        toGreySealWebsite = findViewById(R.id.btnToPage);
 
         registerForContextMenu(greySealDetails);
         registerForContextMenu(greySealFact1);

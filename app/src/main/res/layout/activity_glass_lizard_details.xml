@@ -16,16 +16,20 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/tvGreySealTitle"
-                android:layout_width="match_parent"
+                android:id="@+id/tvGlassLizardTitle"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center";
-                android:text="@string/tvGreySealTitle" />
+                android:layout_gravity="center"
+                android:layout_marginVertical="40dp"
+                android:text="@string/tvGlassLizardTitle"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
 
             <ImageView
-                android:id="@+id/ivGreySeal"
+                android:id="@+id/ivGlassLizard"
                 android:layout_width="match_parent"
-                android:layout_height="230dp" />
+                android:layout_height="331dp"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,16 +37,22 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvGreySealAbout"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tvAboutGiantPandaBear"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvGreySealAbout" />
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="30dp"
+                    android:text="@string/tvGreySealAbout"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/tvGreySealDetails"
+                    android:id="@+id/tvGiantPandaBearDetails"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvGreySealDetails" />
+                    android:text="@string/tvGreySealDetails"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -56,34 +66,50 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvGreySealFacts"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tvGiantPandaBearFacts"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvGreySealFacts" />
+                    android:layout_gravity="center"
+                    android:layout_marginVertical="30dp"
+                    android:text="@string/tvGreySealFacts"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/tvGreySealFact1"
+                    android:id="@+id/tvGiantPandaBearQ1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvSealFact1" />
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/tvSealFact1"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
 
                 <TextView
-                    android:id="@+id/tvGreySealFact2"
+                    android:id="@+id/tvGiantPandaBearQ2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvSealFact2" />
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/tvSealFact2"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
 
                 <TextView
-                    android:id="@+id/tvGreySealFact3"
+                    android:id="@+id/tvGiantPandaBearQ3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvSealFact3" />
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/tvSealFact3"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
 
                 <TextView
-                    android:id="@+id/tvGreySealFact4"
+                    android:id="@+id/tvGiantPandaBearA1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvSealFact4" />
+                    android:layout_marginVertical="20dp"
+                    android:text="@string/tvSealFact4"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
             </LinearLayout>
 
             <View

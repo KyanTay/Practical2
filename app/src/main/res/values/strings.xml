@@ -1,16 +1,44 @@
 <resources>
     <string name="app_name">Practical2</string>
     <string name="tvGreySeal">Grey Seal</string>
-    <string name="btnTest">button</string>
+
     <string name="tvGiantPanda">Giant Panda Bear</string>
     <string name="tvGreySealTitle">GREY SEAL</string>
+    <string name="tvGlassLizardTitle">GLASS LIZARD</string>
 
     <string name="tvGreySealAbout"><u>About the Grey Seal</u></string>
+    <string name="tvGiantPandaBearAbout"><u>About the Giant Panda Bear</u></string>
+    <string name="tvGlassLizardAbout"><u>About the Glass Lizard</u></string>
+
+
     <string name="tvGreySealDetails">A grey seal is one of the rarest species of seal alive today.
         They can adapt to life on a coastline but go to the ocean when hunting for food.
         These seals can live from 25 to 35 years. The big, curved nose of grey seals
         has earned them the name the horseheads of the sea. <b>A grey seal can dive 1,500
             feet below the surface of the ocean and stay under for an hour.</b></string>
+
+    <string name="tvGiantPandaBearDetails">The Giant Panda is a species of bear that is found
+        in the mountains of central and western China. One of the most famous and easily identifiable
+        animals in the world, the Giant Panda is also one of the rarest and is under immense threat
+        in its natural environment, primarily from habitat loss. The Giant Panda is unique among bears
+        as they do not hibernate, have very small babies at birth and survive on a diet that is almost
+        entirely vegetarian. Since the Giant Panda was first discovered by a French naturalist in 1869,
+        it has become a global symbol for conservation with the World Wildlife Fund using it as their logo.
+        The Chinese people also see the Giant Panda as a symbol of peace and numerous efforts have been made
+        to try and protect the remaining populations in their native habitats.</string>
+
+    <string name="tvGlassLizard">The glass lizard is a legless reptile that’s native to North America.
+        This intelligent lizard dominates everywhere between the rocky beaches of Florida to the grassy
+        expanses of the Midwest. Hidden in these places, the Ophisaurus waits patiently for its prey:
+        insects, spiders, and other small creatures that crawl in the damp spaces underground.
+        These lizards are known for having long tails that make up the majority of their bodies.
+        Although it’s possible for one of these tails to regrow if it gets broken off, the truth is
+        that the new tail will have neither the same markings nor reach the same length as the original.
+        Because of this, responsible handlers take great care to avoid harming any glass lizards they meet.
+        These lizards are not known to bite humans if approached with a friendly attitude.
+        Luckily, Ophisaurus is a resourceful species that has managed to successfully spread across America’s
+        warm and moderate climates. You can tell that you’re looking at a glass lizard if its eyes
+        can open and close; this is something that a snake simply cannot do.</string>
 
     <string name="tvGreySealFacts"><u>Facts about Grey Seal</u></string>
     <string name="tvSealFact1"><b>Staying warm in the sea:</b> A grey seal has two heavy
@@ -25,8 +53,31 @@
         in hoots, cries, growls and hisses. They also flap their flippers. Seals have their own
         language!</string>
 
-    <string name="btnClickToLearnMore">Click here to learn more!</string>
-    <string name="tvAnimalSafari">ANIMAL SAFARI</string>
+    <string name="tvPandaFrequentQuestions">Frequent question asked!</string>
+    <string name="tvPandaQuestion1"><b>Are Giant Panda Bears herbivores, carnivores, or omnivores?</b></string>
+    <string name="tvPandaAnswer1">Giant Panda Bears are Omnivores, meaning they eat both plants and other animals.</string>
+    <string name="tvPandaQuestion2"><b>What Kingdom do Giant Panda Bears belong to?</b></string>
+    <string name="tvPandaAnswer2">Giant Panda Bears belong to the Kingdom Animalia.</string>
+    <string name="tvPandaQuestion3"><b>What class do Giant Panda Bears belong to?</b></string>
+    <string name="tvPandaAnswer3">Giant Panda Bears belong to the class Mammalia.</string>
 
+    <string name="tvGlassLizardFacts"><u>Facts about Grey Seal</u></string>
+    <string name="tvGlassLizardFact1"><b>Staying warm in the sea:</b> A grey seal has two heavy
+        layers of fur and one layer of blubber that combine to keep it warm
+        in the cold ocean water</string>
+    <string name="tvGlassLizardFact2"><b>A big animal:</b> An adult male
+        grey seal can weigh 880 pounds!</string>
+    <string name="tvGlassLizardFact3"><b>Expert hunters:</b> Grey seals can see and hear better
+        underwater than they can on land. This helps them to find their prey in the
+        ocean waters.</string>
+    <string name="tvGlassLizardFact4"><b>Talking seal talk:</b> These seals communicate with one another
+        in hoots, cries, growls and hisses. They also flap their flippers. Seals have their own
+        language!</string>
+
+
+    <string name="btnClickToLearnMore">Click here to learn more!</string>
+
+    <string name="tvAnimalSafari">ANIMAL SAFARI</string>
+    <string name="tvGiantPandaBear">Giant Panda Bear</string>
 
 </resources>

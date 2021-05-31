@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         giantPandaBearText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent giantPandaBearDetails = new Intent(MainActivity.this, showAnimalDetails.class);
+                Intent giantPandaBearDetails = new Intent(MainActivity.this, giantPandaBearDetails.class);
                 giantPandaBearDetails.putExtra("pandaBear", "2");
                 startActivity(giantPandaBearDetails);
             }
