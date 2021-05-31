@@ -37,20 +37,20 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvAboutGiantPandaBear"
+                    android:id="@+id/tvGlassLizardAbout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginVertical="30dp"
-                    android:text="@string/tvGreySealAbout"
+                    android:text="@string/tvGlassLizardAbout"
                     android:textColor="@color/white"
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearDetails"
+                    android:id="@+id/tvGlassLizardDetails"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/tvGreySealDetails"
+                    android:text="@string/tvGlassLizardDetails"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -66,48 +66,78 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearFacts"
+                    android:id="@+id/tvGlassLizardFacts"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginVertical="30dp"
-                    android:text="@string/tvGreySealFacts"
+                    android:text="@string/tvGlassLizardFacts"
                     android:textColor="@color/white"
                     android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearQ1"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tvFact1"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
-                    android:text="@string/tvSealFact1"
+                    android:text="@string/tvFact1"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/tvGlassLizardFact1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvGlassLizardFact1"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/tvFact2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:text="@string/tvFact2"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/tvGlassLizardFact2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tvGlassLizardFact2"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearQ2"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tvFact3"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
-                    android:text="@string/tvSealFact2"
+                    android:text="@string/tvFact3"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tvGlassLizardFact3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/tvGlassLizardFact3"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearQ3"
-                    android:layout_width="match_parent"
+                    android:id="@+id/tvFact4"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="10dp"
-                    android:text="@string/tvSealFact3"
+                    android:text="@string/tvFact4"
                     android:textColor="@color/white"
-                    android:textSize="25sp" />
+                    android:textSize="30sp" />
 
                 <TextView
-                    android:id="@+id/tvGiantPandaBearA1"
+                    android:id="@+id/tvGlassLizardFact4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginVertical="20dp"
-                    android:text="@string/tvSealFact4"
+                    android:text="@string/tvGlassLizardFact4"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
             </LinearLayout>

@@ -54,7 +54,7 @@ public class giantPandaBearDetails extends AppCompatActivity {
 
         //calling for grey seal intent
         Intent getGiantPandaIntent = getIntent();
-        //to find the intetn string
+        //to find the intent string
         String imagePandaBear = getGiantPandaIntent.getStringExtra("pandaBear");
 
         //set image

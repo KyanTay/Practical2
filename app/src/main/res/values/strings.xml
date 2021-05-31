@@ -1,14 +1,48 @@
 <resources>
+    <string name="btnClickToLearnMore">Click here to learn more!</string>
+    <string name="tvAnimalSafari">ANIMAL SAFARI</string>
     <string name="app_name">Practical2</string>
-    <string name="tvGreySeal">Grey Seal</string>
 
+    <string name="tvGreySeal">Grey Seal</string>
     <string name="tvGiantPanda">Giant Panda Bear</string>
+    <string name="tvGlassLizard">Glass Lizard</string>
+    <string name="tvGilaMonster">Gila Monster</string>
+    <string name="tvGiantClam">Giant Clam</string>
+    <string name="tvGreenBeeEater">Green Bee-Eater</string>
+    <string name="tvGriffonshire">Griffonshire</string>
+    <string name="tvGiantAfricanLandSnail">Giant African Land Snail</string>
+    <string name="tvGlassFrog">Glass Frog</string>
+    <string name="tvGecko">Gecko</string>
+
+
     <string name="tvGreySealTitle">GREY SEAL</string>
     <string name="tvGlassLizardTitle">GLASS LIZARD</string>
+    <string name="tvGilaMonsterTitle">GILA MONSTER</string>
+    <string name="tvGiantPandaBearTitle">GIANT PANDA BEAR</string>
+    <string name="tvGiantClamTitle">GIANT CLAM</string>
+    <string name="tvGreenBeeEaterTitle">GREEN BEE-EATER</string>
+    <string name="tvGriffonshireTitle">GRIFFONSHIRE</string>
+    <string name="tvGiantAfricanLandSnailTitle">GIANT AFRICAN LAND SNAIL</string>
+    <string name="tvGlassFrogTitle">GLASS FROG</string>
+    <string name="tvGeckoTitle">GECKO</string>
+
 
     <string name="tvGreySealAbout"><u>About the Grey Seal</u></string>
     <string name="tvGiantPandaBearAbout"><u>About the Giant Panda Bear</u></string>
     <string name="tvGlassLizardAbout"><u>About the Glass Lizard</u></string>
+    <string name="tvGilaMonsterAbout"><u>About the Gila Monster</u></string>
+    <string name="tvGiantClamAbout"><u>About the Giant Clam</u></string>
+    <string name="tvGreenBeeEaterAbout"><u>About the Green Bee_Eater</u></string>
+    <string name="tvGriffonshireAbout"><u>About the Griffonshire</u></string>
+    <string name="tvGiantAfricanLandSnailAbout"><u>About the Giant African Land Snail</u></string>
+    <string name="tvGlassFrogAbout"><u>About the Glass Frog</u></string>
+    <string name="tvGeckoAbout"><u>About the Gecko</u></string>
+
+
+    <string name="tvFact1"><b>Fact 1:</b></string>
+    <string name="tvFact2"><b>Fact 2:</b></string>
+    <string name="tvFact3"><b>Fact 3:</b></string>
+    <string name="tvFact4"><b>Fact 4:</b></string>
 
 
     <string name="tvGreySealDetails">A grey seal is one of the rarest species of seal alive today.
@@ -27,7 +61,7 @@
         The Chinese people also see the Giant Panda as a symbol of peace and numerous efforts have been made
         to try and protect the remaining populations in their native habitats.</string>
 
-    <string name="tvGlassLizard">The glass lizard is a legless reptile that’s native to North America.
+    <string name="tvGlassLizardDetails">The glass lizard is a legless reptile that’s native to North America.
         This intelligent lizard dominates everywhere between the rocky beaches of Florida to the grassy
         expanses of the Midwest. Hidden in these places, the Ophisaurus waits patiently for its prey:
         insects, spiders, and other small creatures that crawl in the damp spaces underground.
@@ -39,6 +73,65 @@
         Luckily, Ophisaurus is a resourceful species that has managed to successfully spread across America’s
         warm and moderate climates. You can tell that you’re looking at a glass lizard if its eyes
         can open and close; this is something that a snake simply cannot do.</string>
+
+    <string name="tvGilaMonsterDetails"><b>The Gila Monster is the largest lizard in the United States!</b>
+        The Gila monster is not just the largest lizard in the United States, it’s one of four North American
+        lizards that are venomous. The others are species of Mexican beaded lizards that are found in
+        Guatemala and Mexico. Despite its venom, the Gila monster is a rather lethargic animal and is not
+        dangerous to humans. Found in the Mexican Sonora and the southwestern United States,
+        its conservation status is near threatened.</string>
+
+    <string name="tvGiantClamDetails"><b>“A giant clam can weigh up to 550 pounds!”</b>Giant clams grow to
+        be about 4 feet in length. They live in the Indian and South Pacific Oceans. The exposed mantle,
+        or soft tissue, of a giant clam, features a combination of colors and patterns that can include yellow,
+        green, iridescent blue, and purple. This species of clam is an omnivore eating tiny marine plants as
+        well as animals in the form of zooplankton. The lifespan of this mollusk goes all the way u
+        p to 100 years!</string>
+
+    <string name="tvGreenBeeEaterDetails"><b>The green bee-eater, or little green bee-eater, is one of the
+        smallest birds in the bee-eater family.</b>It is known for its small size, unique sound,
+        slender body, and bright plumage as well as for being one of the most beautiful birds.
+        It is found in a variety of wooded areas throughout sub-Saharan Africa, western Arabia,
+        and east Asia. Although it’s in no danger of extinction, it is experiencing a decline in its native habitat
+        as well as populations of its main prey, honeybees.</string>
+
+    <string name="tvGriffonshireDetails"><b>It’s not uncommon for Griffonshire adults to be mistaken for puppies
+        due to their small size.</b>Breed a Brussels Griffon with a Yorkshire Terrier and you have a puppy called
+        a Griffonshire. Griffonshires were first bred in the decade of the 1980s. These small dogs possess
+        some of the best qualities of each of their purebred parents. The Griffonshire belongs to the
+        hybrid group.Griffonshires are intelligent, lively, and protective of their families. If a
+        Griffonshire is socialized from the time it’s a puppy, then it’s likely to interact well with
+        children.</string>
+
+    <string name="tvGiantAfricanLandSnailDetails"><b>“The Giant African Land Snail is a big, tough,
+        well-traveled snail”</b>As its name suggests, the Giant African Land Snail is one of the
+        largest snails in the world. Though it is native to East Africa, it has been introduced
+        in many other places. In many of these places, it has, unfortunately, become something of
+        a pest. Though the Giant African Land Snail evolved in tropical climes, it has learned to
+        thrive in more temperate areas and may even hibernate, or estivate during the colder or
+        drier months.</string>
+
+    <string name="tvGlassFrogDetails"><b>“If you had a living glass frog in a high school biology class,
+        you would not have to dissect it to see its internal organs.”</b>Glass frogs are a beautiful,
+        exotic frog that is found in southern Mexico, Central America, and South America. Other
+        exotic animals and fish found in this area are the caiman lizard, coati, cichlid fish,
+        collared peccary, and the howler monkey. Glass frogs like to live in rain forests in the
+        mountains near flowing streams where it raises its offspring. This frog can slowly climb
+        trees using its sticky webbed-feet and jumps away from predators in one jump that may
+        be up more than 10 feet (3 meters) long. Instead of a croaking sound, it makes a high-pitched
+        whistling sound to attract a mate. If it survives predators’ attacks, it can live from 10 up
+        to 14 years.</string>
+
+    <string name="tvGeckoDetails"><b>“Geckos can climb vertical walls and stroll across ceilings.”</b>
+        Geckos have been around for at least 300 million years. Scientists have found geckos preserved in
+        amber that dates back to the Cretaceous Period, and those specimens look remarkably like the
+        gentle little lizards you’ll find in so many parts of the world today.
+        There are approximately 1,500 gecko species, and they vary in size from the Jaragua Sphaero dwarf
+        gecko, which measures just three-quarters of an inch long and weighs less than one-hundredth
+        of an ounce, to the New Caledonian giant gecko, which can grow to 17 inches and tips the scales
+        at 10 ounces. Geckos thrive in practically every habitat, including rain forests, mountains,
+        and deserts, so long as average temperatures reach 72 degrees Fahrenheit.</string>
+
 
     <string name="tvGreySealFacts"><u>Facts about Grey Seal</u></string>
     <string name="tvSealFact1"><b>Staying warm in the sea:</b> A grey seal has two heavy
@@ -53,31 +146,91 @@
         in hoots, cries, growls and hisses. They also flap their flippers. Seals have their own
         language!</string>
 
-    <string name="tvPandaFrequentQuestions">Frequent question asked!</string>
+    <string name="tvFrequentQuestions">Frequent question asked!</string>
     <string name="tvPandaQuestion1"><b>Are Giant Panda Bears herbivores, carnivores, or omnivores?</b></string>
     <string name="tvPandaAnswer1">Giant Panda Bears are Omnivores, meaning they eat both plants and other animals.</string>
+
     <string name="tvPandaQuestion2"><b>What Kingdom do Giant Panda Bears belong to?</b></string>
     <string name="tvPandaAnswer2">Giant Panda Bears belong to the Kingdom Animalia.</string>
+
     <string name="tvPandaQuestion3"><b>What class do Giant Panda Bears belong to?</b></string>
     <string name="tvPandaAnswer3">Giant Panda Bears belong to the class Mammalia.</string>
 
+
+    <string name="tvGriffonshireQuestion1"><b>How much does a Griffonshire cost to own?</b></string>
+    <string name="tvGriffonshireAnswer1">Breeders charge around $700 for a Griffonshire puppy.
+        Of course, the price varies from breeder to breeder. Getting a Griffonshire from a rescue
+        organization would be a less expensive option to consider. The yearly vet costs of a
+        Griffonshire range from $300 to $500. The final price depends on the specific services.</string>
+
+    <string name="tvGriffonshireQuestion2"><b>How long does a Griffonshire live?</b></string>
+    <string name="tvGriffonshireAnswer2">Most breeders charge a price of around $700 for a Griffonshire puppy.
+        Another option for someone who’d like this type of dog is to get one from a Griffonshire
+        rescue organization. The price of a Griffonshire from a rescue organization would be a lot lower
+        than it would be for someone dealing with a dog breeder.</string>
+
+    <string name="tvGriffonShireQuestion3"><b>How long does a Griffonshire live?</b></string>
+    <string name="tvGriffonShireAnswer3">The lifespan of a Griffonshire is 12 to 15 years.
+        But a Griffonshire that’s well cared for may live even longer!</string>
+
+
     <string name="tvGlassLizardFacts"><u>Facts about Grey Seal</u></string>
-    <string name="tvGlassLizardFact1"><b>Staying warm in the sea:</b> A grey seal has two heavy
-        layers of fur and one layer of blubber that combine to keep it warm
-        in the cold ocean water</string>
-    <string name="tvGlassLizardFact2"><b>A big animal:</b> An adult male
-        grey seal can weigh 880 pounds!</string>
-    <string name="tvGlassLizardFact3"><b>Expert hunters:</b> Grey seals can see and hear better
-        underwater than they can on land. This helps them to find their prey in the
-        ocean waters.</string>
-    <string name="tvGlassLizardFact4"><b>Talking seal talk:</b> These seals communicate with one another
-        in hoots, cries, growls and hisses. They also flap their flippers. Seals have their own
-        language!</string>
+    <string name="tvGlassLizardFact1">Glass lizards have eyes that can open and close; that’s how you
+        know they’re lizards and not snakes.</string>
+    <string name="tvGlassLizardFact2">Glass lizards are shy and squirmy, but they don’t usually bite humans
+        , even when they’re picked up.</string>
+    <string name="tvGlassLizardFact3">Although glass lizards are legless, some of them have a small
+        pair of legs located near their rear vents.</string>
+    <string name="tvGlassLizardFact4">Glass lizards’ tails break off as a survival mechanism when they
+        are caught by a predator. The tail keeps squirming while the lizard gets away; later, the lizard’s
+        tail will regrow.</string>
 
+    <string name="tvGilaMonsterFact1">A group of Gila monsters is called a lounge.</string>
+    <string name="tvGilaMonsterFact2">They go into a state called “brumation,”
+        which is hibernation for cold-blooded animals.</string>
+    <string name="tvGilaMonsterFact3">They store fat in their tails.
+        This allows them to fast for months.</string>
+    <string name="tvGilaMonsterFact4">The Gila monster has grooves
+        in its teeth through which it injects venom.</string>
 
-    <string name="btnClickToLearnMore">Click here to learn more!</string>
+    <string name="tvGiantClamFact1">After attaching itself to a coral reef, this mollusk stays
+        there for the rest of its life</string>
+    <string name="tvGiantClamFact2">The bright colors in this clam’s mantle are caused by the
+        algae in its system</string>
+    <string name="tvGiantClamFact3">There is a legend claiming that these clams are maneaters,
+        but this is not true</string>
+    <string name="tvGiantClamFact4">Many clams of this species live on the Great Barrier Reef
+        off the coast of Australia</string>
 
-    <string name="tvAnimalSafari">ANIMAL SAFARI</string>
-    <string name="tvGiantPandaBear">Giant Panda Bear</string>
+    <string name="tvGreenBeeEaterFact1">True to its name, 80% of its diet consists of honeybees.</string>
+    <string name="tvGreenBeeEaterFact2">Although it is not known to migrate,
+        it does travel seasonally due to rainfall.</string>
+    <string name="tvGreenBeeEaterFact3">The green bee-eater is a natural-born bee-killer.</string>
+    <string name="tvGreenBeeEaterFact4">It has predator-avoidance behavior with “theory of mind”
+        awareness usually only found in humans and other primates.</string>
 
+    <string name="tvGiantAficanLandSnailFact1">Like many other snails, Giant African Land Snails
+        are hermaphroditic, meaning they have both male and female organs.</string>
+    <string name="tvGiantAficanLandSnailFact2">The snail starts life as a male, then becomes
+        a hermaphrodite as it matures.</string>
+    <string name="tvGiantAficanLandSnailFact3">A gravid Giant African Land Snail can lay as
+        many as 500 eggs at a time. The older it gets, the more eggs it lays, and in hospitable
+        climates, it can lay eggs every eight to twelve weeks.</string>
+    <string name="tvGiantAficanLandSnailFact4">The snail happily eats hundreds of types of plants,
+        whether living or dead.</string>
+
+    <string name="tvGlassFrogFact1">The glass frog lives high in the trees above mountainous
+        streams during the dry season. When the rainy season comes, it climbs down to the stream
+        level to mate.</string>
+    <string name="tvGlassFrogFact2">The glass frog can jump more than ten feet in one jump.</string>
+    <string name="tvGlassFrogFact3">The male frog guards the females’ fertilized eggs placed on
+        leaves until they hatch and the tadpoles fall into the water.</string>
+    <string name="tvGlassFrogFact4">The translucent skin of some species permits an observer to see
+        the frog’s beating heart.</string>
+
+    <string name="tvGeckoFact1">These reptiles can climb practically every vertical surface effortlessly
+        thanks to the tensile suction created by hundreds of thousands of tiny hairs on their toes.</string>
+    <string name="tvGeckoFact2">They are the only lizards with true vocal cords.</string>
+    <string name="tvGeckoFact3">These reptiles clean their eyes by licking them.</string>
+    <string name="tvGeckoFact4">When they lose their tails to predators, they can regenerate new tails.</string>
 </resources>

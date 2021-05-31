@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvTitle;
     TextView greySealText;
     TextView giantPandaBearText;
+    TextView glassLizardText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         tvTitle = findViewById(R.id.tvTitle);
         greySealText = findViewById(R.id.tvGreySeal);
         giantPandaBearText = findViewById(R.id.tvGiantPanda);
-
-        tvTitle.setPaintFlags(tvTitle.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
+        glassLizardText = findViewById(R.id.tvGlassLizard);
 
         greySealText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent giantPandaBearDetails = new Intent(MainActivity.this, giantPandaBearDetails.class);
                 giantPandaBearDetails.putExtra("pandaBear", "2");
                 startActivity(giantPandaBearDetails);
+            }
+        });
+
+        glassLizardText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent glassLizardIntent = new Intent(MainActivity.this, glass_lizard_details.class);
+                glassLizardIntent.putExtra("glassLizard", "3");
+                startActivity(glassLizardIntent);
             }
         });
     }

@@ -35,4 +35,41 @@
         android:layout_margin="10dp"
         android:textSize="30dp" />
 
+
+    <TextView
+        android:id="@+id/tvGlassLizard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/tv_border"
+        android:padding="5dp"
+        android:text="@string/tvGlassLizard"
+        />
+
+    <TextView
+        android:id="@+id/tvGiantClam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/tv_border"
+        android:padding="5dp"
+        android:text="@string/tvGiantClam"
+        />
+    <TextView
+        android:id="@+id/tvGreenBeeEater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/tv_border"
+        android:padding="5dp"
+        android:text="@string/tvGiantClam"
+        />
+
+
 </LinearLayout>
