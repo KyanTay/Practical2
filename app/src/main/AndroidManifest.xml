@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical2">
-        <activity android:name=".Gila_Monster_Details"></activity>
+        <activity android:name=".GekcoDetails"></activity>
+        <activity android:name=".GlassFrogDetails" />
+        <activity android:name=".GiantAfricanLandSnailDetails" />
+        <activity android:name=".GriffonshireDetails" />
+        <activity android:name=".GreenBeeEater" />
+        <activity android:name=".GiantClamDetails" />
+        <activity android:name=".Gila_Monster_Details" />
         <activity android:name=".glass_lizard_details" />
         <activity android:name=".giantPandaBearDetails" />
         <activity android:name=".showAnimalDetails" />

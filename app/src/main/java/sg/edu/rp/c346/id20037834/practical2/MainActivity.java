@@ -15,6 +15,12 @@ public class MainActivity extends AppCompatActivity {
     TextView giantPandaBearText;
     TextView glassLizardText;
     TextView gilaMonsterText;
+    TextView giantClamText;
+    TextView greenBeeEaterText;
+    TextView griffonshireText;
+    TextView giantAfricanLandSnailText;
+    TextView glassFrogText;
+    TextView gekcoText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
         giantPandaBearText = findViewById(R.id.tvGiantPanda);
         glassLizardText = findViewById(R.id.tvGlassLizard);
         gilaMonsterText = findViewById(R.id.tvGilaMonster);
+        giantClamText = findViewById(R.id.tvGiantClam);
+        greenBeeEaterText = findViewById(R.id.tvGreenBeeEater);
+        griffonshireText = findViewById(R.id.tvGriffonshire);
+        giantAfricanLandSnailText = findViewById(R.id.tvGiantAfricanLandSnail);
+        glassFrogText = findViewById(R.id.tvGlassFrog);
+        gekcoText = findViewById(R.id.tvGekco);
 
         greySealText.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +72,60 @@ public class MainActivity extends AppCompatActivity {
                 Intent gilaMonsterDetails = new Intent(MainActivity.this, Gila_Monster_Details.class);
                 gilaMonsterDetails.putExtra("gilaMonster", "4");
                 startActivity(gilaMonsterDetails);
+            }
+        });
+
+        giantClamText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent giantClamDetails = new Intent(MainActivity.this, GiantClamDetails.class);
+                giantClamDetails.putExtra("giantClam", "5");
+                startActivity(giantClamDetails);
+            }
+        });
+
+        greenBeeEaterText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent greenBeeEaterDetails = new Intent(MainActivity.this, GreenBeeEater.class);
+                greenBeeEaterDetails.putExtra("greenBeeEater", "6");
+                startActivity(greenBeeEaterDetails);
+            }
+        });
+
+        griffonshireText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent griffonshireDetails = new Intent(MainActivity.this, GriffonshireDetails.class);
+                griffonshireDetails.putExtra("griffonshire", "7");
+                startActivity(griffonshireDetails);
+            }
+        });
+
+        giantAfricanLandSnailText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent giantAfricanSnailDetails = new Intent(MainActivity.this, GiantAfricanLandSnailDetails.class);
+                giantAfricanSnailDetails.putExtra("giantAfricanLandSnail", "8");
+                startActivity(giantAfricanSnailDetails);
+            }
+        });
+
+        glassFrogText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent glassFrogDetails = new Intent(MainActivity.this, GlassFrogDetails.class);
+                glassFrogDetails.putExtra("glassFrog", "9");
+                startActivity(glassFrogDetails);
+            }
+        });
+
+        gekcoText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gekcoDetails = new Intent(MainActivity.this, GekcoDetails.class);
+                gekcoDetails.putExtra("gekco", "10");
+                startActivity(gekcoDetails);
             }
         });
     }
